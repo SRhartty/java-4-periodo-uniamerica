@@ -33,4 +33,8 @@ public class Juridico extends Cadastro {
     public String getCnpj() {
         return cnpj;
     }
+
+    public void setNomeCadastro(String nome) {
+        super.setNome(nome);
+    }
 }
